@@ -1,0 +1,278 @@
+.body{
+
+}
+.Navigation{
+    position: absolute;
+    top: 0;
+    background: #BD74824D;
+    width: 1500px;
+    height: 150px;
+}
+.card1{
+    position: absolute;
+    width: 300px;
+    height: 101.35px;
+    left: 550px;
+    top: 20px;
+}
+.card2{
+    position: absolute;
+    width: 45px;
+    height: 21.1px;
+    top: 82.3px;
+    left: 324px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #F3E8E8;
+    
+}
+.card3{
+    position: absolute;
+    width: 45px;
+    height: 21.1px;
+    top: 82.3px;
+    left: 409px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+
+.card4{
+    position: absolute;
+    width: 45px;
+    height: 21.1px;
+    top: 82.3px;
+    left: 973px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+.card5{
+    position: absolute;
+    width: 45px;
+    height: 21.1px;
+    top: 82.3px;
+    left: 1061px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.title{
+    position: absolute;
+    width: 609px;
+    height: 133px;
+    top: 175px;
+    left: 409px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 95px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+}
+.info{
+    position: absolute;
+    width: 600px;
+    height: 47px;
+    top: 285px;
+    left: 400px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    position: absolute;
+    width: 353px;
+    height: 700px;
+    left: 30px;
+    top: 400px;
+    border-radius: 10px;
+}
+
+
+.card6{
+    position: absolute;
+    width: 353px;
+    height: 452px;
+    top: 200px;
+    left: 50px;
+    border-radius:10px ;
+    background: rgba(31, 30, 30, 0.6);
+    
+}
+.adress{
+position: absolute;
+width: 121px;
+height: 100px;
+left: 120px;
+top: 100px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.17em;
+color: #F5F5F5;
+
+}
+.mail{
+position: absolute;
+width: 200px;
+height: 30px;
+left: 80px;
+top: 250px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.17em;
+
+color: #F5F5F5;
+}
+.telefonnummer{
+position: absolute;
+width: 129px;
+height: 25px;
+left: 110px;
+top: 400px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.17em;
+
+color: #F5F5F5;
+}
+.backround{
+position: absolute;
+width: 1571px;
+height: 1500px;
+left: -65px;
+top: -64px;
+}
+{}
+.container3{
+position: absolute;
+width: 353px;
+height: 452px;
+left: 500px;
+top: 600px;
+background: rgba(31, 30, 30, 0.6);
+border-radius: 10px;
+
+}
+.öppettider{
+position: absolute;
+width: 197px;
+height: 200px;
+left: 50px;
+top: 20px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+letter-spacing: 0.17em;
+
+color: #F5F5F5;
+
+}
+.more-info{
+    position: absolute;
+width: 257px;
+height: 254px;
+left: 50px;
+top: 150px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+letter-spacing: 0.17em;
+
+color: #F5F5F5;
+}
+
+.mashup {
+position: absolute;
+width: 1505px;
+height: 80px;
+left: 0px;
+bottom: 0px;
+top: 1430px;
+background-color: #bd7482;
+}
+
+.footer{
+position: absolute;
+width: 28px;
+height: 28px;
+left: 120px;
+bottom: 31px;
+
+
+}
+.mash{
+position: absolute;
+width: 200px;
+height: 20px;
+left: 155px;
+bottom: 35px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+letter-spacing: 0.17em;
+
+color: #FFFFFF;
+}
+.F{
+position: absolute;
+left:1197px;
+top: 25px;
+margin-bottom: 40px;
+
+}
+.I{
+position: absolute;
+position: absolute;
+left: 1252px;
+top: 25px;
+margin-bottom: 24px;
+}
+
+.contact-form2{
+position: absolute;
+width: 280px;
+height: 100px;
+left: 890px;
+top: 800px;
+
+border-radius: 10px;
+}

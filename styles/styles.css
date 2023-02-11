@@ -59,15 +59,15 @@ header {
 
 .container-headphone {
     display: flex;
-    min-height: 500px;
+    min-height: 600px;
     min-width: 100vw;
     justify-content: center;
     align-items: center;
 }
 
 .headphones {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     display: flex;
     align-self: center;
 }
@@ -88,7 +88,7 @@ header {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    transform: translateY(-10px);
+    transform: translateY(-20px);
 }
 
 .headphones-btn button {
@@ -112,12 +112,9 @@ header {
 }
 
 .footer-container {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient(#00000022,#bd7482,#000000);
-    position: absolute;
-    bottom: 0;
 }
 
 .footer {

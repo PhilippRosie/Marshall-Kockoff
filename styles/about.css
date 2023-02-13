@@ -63,9 +63,60 @@ time, mark, audio, video {
 /* BODY */
 
 body {
-    background-image: url(../images/background.png);
+    background-image: url(../images/background-thinner.png);
     background-size: 100vw;
     background-attachment: fixed;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    min-height: 153px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(189, 116, 130, 0.3);
+}
+
+.nav-bar {
+    max-width: 803px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.nav__item {
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+.nav__item.link {
+    position: relative;
+    transform: translateY(25px);
+}
+
+.nav__item__link {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.17em;
+
+    color: #F3E8E8;
+    text-decoration: none;
+}
+
+.header__logo {
+    max-width: 300px;
+    width: 100%;
+    padding-inline: 50px;
+    /* border: 1px solid red; */
 }
 
 /* ABOUT */

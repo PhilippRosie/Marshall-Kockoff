@@ -22,13 +22,13 @@ time, mark, audio, video {
     max-width: 1200px;
     width: 100%;
     min-height: 810px;
-    margin-inline: auto;
+    margin: 90px auto;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .text--bg {
@@ -56,7 +56,7 @@ time, mark, audio, video {
 
     letter-spacing: 0.04em;
 
-    color: #FFF;
+    color: #F3E8E8;
     /* border: 1px solid red; */
 }
 
@@ -119,6 +119,71 @@ header {
     /* border: 1px solid red; */
 }
 
+/* FOOTER */
+
+footer {
+    width: 100%;
+    min-height: 96px;
+    background: linear-gradient(180deg, #3C1818 0%, #BD7482 100%);
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.footer__wrapper {
+    max-width: 1165px;
+    width: 100%;
+    min-height: inherit;
+    margin-inline: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar__footer {
+    max-width: 340px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+
+.nav__item__link.footer {
+    font-size: 15px;
+}
+
+.footer__copyright {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.17em;
+
+    color: #F3E8E8;
+}
+
+.socials {
+    width: 65px;
+    min-height: 46px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-copyright {
+    font-size: 20px;
+}
+
+.fa-brands {
+    color: #F3E8E8;
+    font-size: 25px;
+}
+
+.fa-instagram {
+    font-size: 29px;
+}
+
 /* ABOUT */
 
 .container.about {
@@ -135,7 +200,7 @@ header {
     text-align: center;
     letter-spacing: 0.1em;
 
-    color: #fff;
+    color: #F3E8E8;
     /* border: 1px solid red; */
 }
 
@@ -175,7 +240,7 @@ header {
     line-height: 86px;
     text-align: center;
     letter-spacing: 0.1em;
-    color: #fff;
+    color: #F3E8E8;
     /* border: 1px solid red; */
 }
 

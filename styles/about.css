@@ -1,0 +1,170 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+}
+
+/* GENERAL */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 810px;
+    margin-inline: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.text--bg {
+    max-width: 559px;
+    width: 100%;
+    min-height: 232px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(31, 30, 30, 0.6);
+    border-radius: 10px;
+}
+
+.text {
+    max-width: 460px;
+    width: 100%;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+
+    letter-spacing: 0.04em;
+
+    color: #FFF;
+    /* border: 1px solid red; */
+}
+
+/* BODY */
+
+body {
+    background-image: url(../images/background.png);
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+
+/* ABOUT */
+
+.container.about {
+    max-width: 1058px;
+}
+
+.about__heading {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 95px;
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #fff;
+    /* border: 1px solid red; */
+}
+
+.about__card {
+    max-width: 1003px;
+    width: 100%;
+    min-height: 267px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+.about__card.her {
+    align-self: flex-start;
+}
+
+.about__card.him {
+    align-self: flex-end;
+}
+
+.about__img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* OUR PRODUCTS */
+
+.our-products__heading {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 86px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #fff;
+    /* border: 1px solid red; */
+}
+
+.our-products__imgs {
+    width: 100%;
+    min-height: 335px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.our-products__img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.our-products__img.middle {
+    max-width: 400px;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.our-products__info {
+    max-width: 981px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.our-products.text--bg {
+    max-width: 470px;
+}
+
+.our-products.text {
+    text-align: center;
+    max-width: 338px;
+    /* border: 1px solid red; */
+}

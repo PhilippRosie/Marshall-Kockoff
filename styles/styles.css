@@ -52,7 +52,7 @@ body {
     z-index: -1;
     position: fixed;
     top: 165px;
-    right: 75px;
+    right: 80px;
     rotate: 150deg;
     opacity: 0;
     animation: fadeInAnimation ease 5s;
@@ -191,6 +191,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient(#00000023,#bd7482,#000000);
+    transform: translateY(40px);
 }
 
 .footer {

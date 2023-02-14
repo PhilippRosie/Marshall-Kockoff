@@ -18,6 +18,49 @@ body {
     align-items: center;
 }
 
+#star {
+    width: 70px;
+    height: 70px;
+    z-index: -1;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    opacity: 0;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#star1 {
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    position: fixed;
+    bottom: 90px;
+    right: 45px;
+    rotate: 190deg;
+    opacity: 0;
+    animation: fadeInAnimation ease 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#star2 {
+    width: 30px;
+    height: 30px;
+    z-index: -1;
+    position: fixed;
+    top: 165px;
+    right: 85px;
+    rotate: 150deg;
+    opacity: 0;
+    animation: fadeInAnimation ease 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 header {
     width: 100%;
     height: 90px;
@@ -31,6 +74,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .navbar ul {
@@ -142,7 +186,7 @@ header {
     height: 90px;
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(#00000022,#bd7482,#000000);
+    background-image: linear-gradient(#00000023,#bd7482,#000000);
     transform: translateY(40px);
 }
 

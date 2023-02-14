@@ -250,12 +250,12 @@ header {
     width: 50px;
     height: 45px;
     padding-right: 30px;
-    background: url(/images/facebook-logo.png) no-repeat;
+    background: url(/images/landing-page/facebook-logo.png) no-repeat;
     display: inline-block;
 }
 
 .facebook-logo:hover {
-    background: url(/images/facebook-logo1.png) no-repeat;
+    background: url(/images/landing-page/facebook-logo1.png) no-repeat;
     transform: rotateZ(-360deg);
     transition: 1s;
 }
@@ -265,12 +265,12 @@ header {
     height: 50px;
     padding-left: 10px;
     padding-right: 30px;
-    background: url(/images/instagram-logo.png) no-repeat;
+    background: url(/images/landing-page/instagram-logo.png) no-repeat;
     display: inline-block;
 }
 
 .instagram-logo:hover {
-    background: url(/images/instagram-logo1.png) no-repeat;
+    background: url(/images/landing-page/instagram-logo1.png) no-repeat;
     transform: rotateZ(-360deg);
     transition: 1s;
 }

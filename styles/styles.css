@@ -191,7 +191,6 @@ header {
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient(#00000023,#bd7482,#000000);
-    transform: translateY(40px);
 }
 
 .footer {
@@ -284,7 +283,7 @@ header {
         font-family: 'Oswald', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 8px;
+        font-size: 10px;
         line-height: 15px;
         letter-spacing: 0.17em;
         cursor: pointer;

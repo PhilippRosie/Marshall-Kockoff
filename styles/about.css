@@ -112,12 +112,42 @@ header {
     text-decoration: none;
 }
 
+.underline-hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #f2f2f2;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 300ms;
+}
+
+.underline-hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 .header__logo {
     max-width: 300px;
     width: 100%;
     padding-inline: 50px;
+    position: relative;
     /* border: 1px solid red; */
 }
+
+.animate__heartBeat {
+    animation-play-state: paused;
+}
+
+.animate__heartBeat:hover {
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0.1s;
+}
+
 
 /* FOOTER */
 
@@ -149,6 +179,7 @@ footer {
 
 .nav__item__link.footer {
     font-size: 15px;
+    position: relative;
 }
 
 .footer__copyright {
@@ -178,6 +209,10 @@ footer {
 .fa-brands {
     color: #F3E8E8;
     font-size: 25px;
+}
+
+.fa-brands.glow:hover {
+    text-shadow: 1px 1px 8px#bd7482;
 }
 
 .fa-instagram {

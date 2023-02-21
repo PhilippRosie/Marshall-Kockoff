@@ -1,0 +1,204 @@
+body{
+
+    background-image: url(../images/MicrosoftTeams-image\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+
+.header{
+    height: 153px;
+    background-color: rgb(189, 116, 130, 0.6);
+}
+.Navigation{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+padding-top: 20px;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+color: #F3E8E8;
+
+}
+
+.card2{
+margin-left: 40px;
+padding-top: 50px;
+}
+
+.card3{
+padding-top: 50px;
+}
+
+.card4{
+padding-top: 50px;
+}
+
+.card5{
+    padding-top: 50px;
+    margin-right: 40px; 
+}
+
+.contact_us{
+    display: flex;
+justify-content: center;
+
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 95px;
+    color: #FFFFFF;
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+
+.text{
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: -30px;
+}
+
+.three_boxs{
+    display: flex;
+    justify-content: space-around
+}
+
+.img{
+    width: 300px;
+    /*margin-left: 35px;*/
+    margin-right: 20px;
+}
+.info{
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+letter-spacing: 0.17em;
+color: #F5F5F5;
+background: rgba(31, 30, 30, 0.6);
+padding-top: 40px;
+padding-bottom: 40px;
+padding-right: 60px;
+padding-left: 20px;
+max-width: 250px;
+min-height: 100px;
+width: 100%;
+height: 50%;
+line-height: 50px;
+text-align: center;
+}
+
+.box2{
+    background: rgba(31, 30, 30, 0.6);
+    max-width: 250px;
+    min-height: 200px;
+    margin-top: 120px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.17em;
+    color: #F5F5F5;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.box3{
+    display: flex;
+    align-items: flex-end;
+}
+.form2{
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+display: flex;
+justify-content: center;
+padding-top: 10px;
+letter-spacing: 1mm;
+color: #F5F5F5;
+margin-top: 20px;
+}
+
+.email{
+    color: #F5F5F5;
+    border-radius: 20px;
+    background-color:  rgb(90, 52, 109);
+    border: none;
+   
+ }
+ .massage{
+     background-color: rgb(90, 52, 109);;
+     color: #F3E8E8;
+     border-radius: 14px;
+     border: none;
+     margin-top: 5px;
+ }
+ .send{
+    margin-top: 10px;
+     background-color:  rgb(170, 122, 157) ;
+      
+     width: 100px;
+     border-radius: 14px;
+     font-family: 'Oswald';
+     font-style: normal;
+     letter-spacing: 1mm;
+     color: #F5F5F5;
+ }
+
+ .send:hover{
+     background-color: rgb(90, 52, 109); ;
+     transition: all 1s ease-in-out;
+    transition-delay: 0,9s;
+    }
+.box4{
+    background-color: rgb(189, 116, 130, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+    .mashup{
+        display: flex;
+        display: inline-flex;
+        margin-left: 50px;
+        margin-right: 10px;
+        
+ }
+.mash{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.17em;
+    color: #F5F5F5;
+}
+
+.box5{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    
+}
+.F{
+    margin-right: 40px;
+}

@@ -22,20 +22,18 @@ time, mark, audio, video {
     max-width: 1200px;
     width: 100%;
     min-height: 810px;
-    margin: 90px auto;
+    margin: 100px auto;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
 }
 
 .text--bg {
     max-width: 559px;
     width: 100%;
     min-height: 232px;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,15 +55,15 @@ time, mark, audio, video {
     letter-spacing: 0.04em;
 
     color: #F3E8E8;
-    /* border: 1px solid red; */
 }
 
 /* BODY */
 
 body {
     background-image: url(../images/background-thinner.png);
-    background-size: 100vw;
+    background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 /* HEADER */
@@ -73,7 +71,6 @@ body {
 header {
     width: 100%;
     min-height: 153px;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,12 +84,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
 }
 
 .nav__item {
     list-style: none;
-    /* border: 1px solid red; */
 }
 
 .nav__item.link {
@@ -135,7 +130,6 @@ header {
     width: 100%;
     padding-inline: 50px;
     position: relative;
-    /* border: 1px solid red; */
 }
 
 .animate__heartBeat {
@@ -163,7 +157,6 @@ footer {
     width: 100%;
     min-height: inherit;
     margin-inline: auto;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -174,7 +167,6 @@ footer {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid green; */
 }
 
 .nav__item__link.footer {
@@ -196,7 +188,6 @@ footer {
 .socials {
     width: 65px;
     min-height: 46px;
-    /* border: 1px solid green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -236,7 +227,6 @@ footer {
     letter-spacing: 0.1em;
 
     color: #F3E8E8;
-    /* border: 1px solid red; */
 }
 
 .about__card {
@@ -247,7 +237,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid green; */
 }
 
 .about__card.her {
@@ -276,13 +265,11 @@ footer {
     text-align: center;
     letter-spacing: 0.1em;
     color: #F3E8E8;
-    /* border: 1px solid red; */
 }
 
 .our-products__imgs {
     width: 100%;
     min-height: 335px;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -307,7 +294,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
 }
 
 .our-products.text--bg {
@@ -317,5 +303,4 @@ footer {
 .our-products.text {
     text-align: center;
     max-width: 338px;
-    /* border: 1px solid red; */
 }

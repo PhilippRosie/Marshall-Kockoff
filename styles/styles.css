@@ -52,7 +52,7 @@ body {
     z-index: -1;
     position: fixed;
     top: 165px;
-    right: 85px;
+    right: 80px;
     rotate: 150deg;
     opacity: 0;
     animation: fadeInAnimation ease 5s;
@@ -93,6 +93,8 @@ header {
     letter-spacing: 0.17em;
     color: #F3E8E8;
     align-self: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .navbar li:hover {
@@ -105,27 +107,38 @@ header {
     width: 228px;
     height: 81px;
     align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.headphone-and-button-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container-headphone {
     display: flex;
-    min-height: 500px;
-    min-width: 100vw;
+    width: 100%;
+    height: 500px;
     justify-content: center;
     align-items: center;
 }
 
 .headphones {
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     display: flex;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .headphones img {
     width: 500px;
     height: 500px;
-    transform: translateY(20px);
     animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -170,16 +183,19 @@ header {
     padding: 5px;
 }
 
-
-
 .headphones-btn button:hover {
-    
     box-shadow: inset 0px 0px 20px black;
     background-color: #bb586b;
     color: #000000;
     transition: 1s ease;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 
 .footer-container {
     width: 100%;
@@ -187,7 +203,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient(#00000023,#bd7482,#000000);
-    transform: translateY(40px);
+    z-index: 1;
 }
 
 .footer {
@@ -275,6 +291,33 @@ header {
     transition: 1s;
 }
 
+@media all and (max-width: 1300px) {
+    .footer-list {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: 0.17em;
+        cursor: pointer;
+        align-self: center;
+    }     
+
+    .navbar li {
+        list-style: none;
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.17em;
+        color: #F3E8E8;
+        align-self: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }    
+}
+
 @media all and (max-width: 900px) {
     .footer-list {
         font-family: 'Oswald', sans-serif;
@@ -286,6 +329,63 @@ header {
         cursor: pointer;
         align-self: center;
     }     
+
+    .navbar li {
+        list-style: none;
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 25px;
+        letter-spacing: 0.17em;
+        color: #F3E8E8;
+        align-self: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }    
+
+    .header-logo {
+        width: 182px;
+        height: 65px;
+        align-items: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .footer-list {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 15px;
+        letter-spacing: 0.17em;
+        cursor: pointer;
+        align-self: center;
+    }     
+
+    .navbar li {
+        list-style: none;
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 25px;
+        letter-spacing: 0.17em;
+        color: #F3E8E8;
+        align-self: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }    
+
+    .header-logo {
+        width: 109px;
+        height: 39px;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }  
 }
 
 /*Button & Headphone img*/

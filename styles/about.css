@@ -1,0 +1,306 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+}
+
+/* GENERAL */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 810px;
+    margin: 100px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text--bg {
+    max-width: 559px;
+    width: 100%;
+    min-height: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(31, 30, 30, 0.6);
+    border-radius: 10px;
+}
+
+.text {
+    max-width: 460px;
+    width: 100%;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+
+    letter-spacing: 0.04em;
+
+    color: #F3E8E8;
+}
+
+/* BODY */
+
+body {
+    background-image: url(../images/background-thinner.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    min-height: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(189, 116, 130, 0.3);
+}
+
+.nav-bar {
+    max-width: 803px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item {
+    list-style: none;
+}
+
+.nav__item.link {
+    position: relative;
+    transform: translateY(25px);
+}
+
+.nav__item__link {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.17em;
+
+    color: #F3E8E8;
+    text-decoration: none;
+}
+
+.underline-hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #f2f2f2;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 300ms;
+}
+
+.underline-hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.header__logo {
+    max-width: 300px;
+    width: 100%;
+    padding-inline: 50px;
+    position: relative;
+}
+
+.animate__heartBeat {
+    animation-play-state: paused;
+}
+
+.animate__heartBeat:hover {
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0.1s;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    min-height: 96px;
+    background: linear-gradient(180deg, #3C1818 0%, #BD7482 100%);
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.footer__wrapper {
+    max-width: 1165px;
+    width: 100%;
+    min-height: inherit;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar__footer {
+    max-width: 340px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item__link.footer {
+    font-size: 15px;
+    position: relative;
+}
+
+.footer__copyright {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.17em;
+
+    color: #F3E8E8;
+}
+
+.socials {
+    width: 65px;
+    min-height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-copyright {
+    font-size: 20px;
+}
+
+.fa-brands {
+    color: #F3E8E8;
+    font-size: 25px;
+}
+
+.fa-brands.glow:hover {
+    text-shadow: 1px 1px 8px#bd7482;
+}
+
+.fa-instagram {
+    font-size: 29px;
+}
+
+/* ABOUT */
+
+.container.about {
+    max-width: 1058px;
+}
+
+.about__heading {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 95px;
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #F3E8E8;
+}
+
+.about__card {
+    max-width: 1003px;
+    width: 100%;
+    min-height: 267px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__card.her {
+    align-self: flex-start;
+}
+
+.about__card.him {
+    align-self: flex-end;
+}
+
+.about__img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* OUR PRODUCTS */
+
+.our-products__heading {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 86px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #F3E8E8;
+}
+
+.our-products__imgs {
+    width: 100%;
+    min-height: 335px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.our-products__img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.our-products__img.middle {
+    max-width: 400px;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.our-products__info {
+    max-width: 981px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-products.text--bg {
+    max-width: 470px;
+}
+
+.our-products.text {
+    text-align: center;
+    max-width: 338px;
+}

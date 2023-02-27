@@ -1,6 +1,6 @@
 body{
 
-    background-image: url(../images/MicrosoftTeams-image\ \(2\).png);
+    background-image: url(../images/background.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -9,13 +9,21 @@ body{
 
 .header{
     height: 153px;
-    background-color: rgb(189, 116, 130, 0.6);
+    
+    
 }
 .Navigation{
-display: flex;
-justify-content: center;
-justify-content: space-around;
-padding-top: 20px;
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   background-color: rgb(189, 116, 130, 0.6);
+
+}
+.card1{
+
+}
+
+.card2{
 font-family: 'Poppins', sans-serif;
 font-size: 20px;
 font-weight: 400;
@@ -24,23 +32,44 @@ color: #F3E8E8;
 
 }
 
-.card2{
-margin-left: 40px;
-padding-top: 50px;
+.card2:hover{
+color: rgb(79, 47, 110);
 }
-
 .card3{
-padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #F3E8E8;
+
 }
+.card3:hover{
+    color: rgb(79, 47, 110);
+    }
 
 .card4{
-padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #F3E8E8;
+
 }
+.card4:hover{
+    color: rgb(79, 47, 110);
+    }
 
 .card5{
-    padding-top: 50px;
-    margin-right: 40px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #F3E8E8;
+
 }
+.card5:hover{
+    color: rgb(79, 47, 110);
+    }
 
 .contact_us{
     display: flex;
@@ -76,7 +105,15 @@ justify-content: center;
     width: 300px;
     /*margin-left: 35px;*/
     margin-right: 20px;
+    animation: imgZoom 3.5s ease infinite;
+
 }
+@keyframes imgZoom {
+    0% {transform: scale(1) rotate(0deg);}
+	50% {transform: scale(1.1) rotate(15deg);}
+	100% {transform: scale(1) rotate(0deg);}
+} 
+
 .info{
 font-family: 'Oswald';
 font-style: normal;
@@ -169,28 +206,21 @@ margin-top: 20px;
     }
 .box4{
     background-color: rgb(189, 116, 130, 0.6);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100px;
 }
     .mashup{
         display: flex;
         display: inline-flex;
         margin-left: 50px;
         margin-right: 10px;
-        
+        margin-top: 20px;
  }
 .mash{
     margin-left: 5px;
-    margin-top: 5px;
+    margin-top: 20px;
     font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 25px;
-    letter-spacing: 0.17em;
-    color: #F5F5F5;
+     font-style: normal;
+     letter-spacing: 1mm;
+     color: #F5F5F5;
 }
 
 .box5{
@@ -201,4 +231,15 @@ margin-top: 20px;
 }
 .F{
     margin-right: 40px;
+}
+.li1{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.li2{
+    list-style: none;
+    margin-right: 60px;
+    float: left;  
+    
 }

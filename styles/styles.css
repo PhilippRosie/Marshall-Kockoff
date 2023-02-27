@@ -85,6 +85,13 @@ header {
 
 .navbar li {
     list-style: none;
+  
+    align-self: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar a {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -92,12 +99,10 @@ header {
     line-height: 25px;
     letter-spacing: 0.17em;
     color: #F3E8E8;
-    align-self: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    text-decoration: none;
 }
 
-.navbar li:hover {
+.navbar a:hover {
     text-shadow: 0px 0px 3px #ffffff;
     color: #000000;
     transition: .5s ease;

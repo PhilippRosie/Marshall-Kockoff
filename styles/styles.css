@@ -247,6 +247,8 @@ footer {
     line-height: 20px;
     letter-spacing: 0.17em;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-list:hover {

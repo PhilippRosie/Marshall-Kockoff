@@ -150,7 +150,7 @@ body {
     width: 50px;
     height: 45px;
     padding-right: 30px;
-    background: url(../images/facebook.png) no-repeat;
+    background: url(../images/gallery-page/facebook.png) no-repeat;
     display: inline-block;
 }
 
@@ -159,7 +159,7 @@ body {
     height: 50px;
     padding-left: 10px;
     padding-right: 30px;
-    background: url(../images/instagram.png) no-repeat;
+    background: url(../images/gallery-page/instagram.png) no-repeat;
     display: inline-block;
 }
 
@@ -209,6 +209,7 @@ header {
   line-height: 25px;
   letter-spacing: 0.17em;
   text-decoration: none;
+  color: white;
 }
 
 .navbar a:hover {
